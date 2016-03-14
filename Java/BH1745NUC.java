@@ -33,7 +33,7 @@ public class BH1745NUC
 		// red lsb, red msb, green lsb, green msb
 		// blue lsb, blue msb, cData lsb, cData msb
 		byte[] data = new byte[8];
-		device.read(0x50,data,0,8);
+		device.read(0x50, data, 0, 8);
 
 		// Convert data 
 		int red = (((data[1] & 0xFF) * 256) + (data[0] & 0xFF));
