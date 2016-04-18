@@ -62,4 +62,17 @@ Verify and flash the code on your Photon. Code output is shown in logs at dashbo
 
 https://dashboard.particle.io/user/logs
 
+
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+```cpp
+$>gcc BH1745NUC.c -o BH1745NUC
+```
+Run the c program.
+```cpp
+$>./BH1745NUC
+```
 #####The code output is the RGB lux value and Clear light luminance.
