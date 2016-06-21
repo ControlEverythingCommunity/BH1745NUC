@@ -60,7 +60,7 @@ void loop()
         // Request 1 byte of data from the device
         Wire.requestFrom(Addr, 1);
         
-        // Read 6 bytes of data
+        // Read 8 bytes of data
         // Red lsb, Red msb, Green lsb, Green msb, Blue lsb, Blue msb
         // cData lsb, cData msb
         if(Wire.available() == 1)
