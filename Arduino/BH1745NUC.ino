@@ -76,7 +76,7 @@ void loop()
     int blue = ((data[5] & 0xFF) * 256) + (data[4] & 0xFF);
     int cData = ((data[7] & 0xFF) * 256) + (data[6] & 0xFF);
     
-    // Output data to dashboard
+    // Output data to serial monitor
     Serial.print("Red Color luminance  : ");
     Serial.println(red);
     Serial.print("Green Color luminance : ");
