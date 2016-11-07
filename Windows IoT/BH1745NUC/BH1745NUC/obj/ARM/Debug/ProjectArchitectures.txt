@@ -1,0 +1,1 @@
+c:\users\yadi\documents\visual studio 2015\Projects\BH1745NUC\BH1745NUC\BH1745NUC.csproj;arm
