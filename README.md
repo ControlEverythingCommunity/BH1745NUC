@@ -109,5 +109,15 @@ Compile and upload the code on Arduino IDE and see the output on Serial Monitor.
 Copy the IP Address of your ESP8266 from Serial Monitor and paste it in your Web Browser to see the result on Web Server.
  
 Note: Your system and ESP8266 should be connected to same Wi-Fi Network.
+
+## Windows 10 IoT Core
+ 
+To download Windows 10 IoT Core, visit Get Started page
+ 
+https://developer.microsoft.com/en-us/windows/iot/GetStarted
+ 
+Download (or git pull) the sample, make a copy on your disk and open the project from Visual Studio.
+
+Note: Your IoT Core device and development PC should be connected to same local Network.
  
 #####The code output is the RGB lux value and Clear light luminance.
