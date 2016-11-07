@@ -29,13 +29,13 @@
 
 	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 		
-		<TextBlock x:Name="Title" HorizontalAlignment="Center" Margin="0,230,0,0" TextWrapping="Wrap" Text="BH1745NUC Digital Ambient Light and Color Sensor" VerticalAlignment="Top" Height="67" Width="2000" FontSize="48" Foreground="#FF34495E" TextAlignment="Center"/>
-		<TextBlock x:Name="Text_Address" HorizontalAlignment="Center" Margin="0,270,0,0" TextWrapping="Wrap" Text="I2C Address: 0x38" VerticalAlignment="Top" Height="36" Width="500" FontSize="30" Foreground="#FF273746" TextAlignment="Center"/>
-        <TextBlock x:Name="Text_Red_Color_Luminance" HorizontalAlignment="Center" Margin="0,380,0,0" TextWrapping="Wrap" Text="Red Color Luminance: Not Initialized" VerticalAlignment="Top" Width="600" FontSize="26.667" Foreground="#FFFC0505" TextAlignment="Center"/>
-        <TextBlock x:Name="Text_Green_Color_Luminance" HorizontalAlignment="Center" Margin="0,430,0,0" TextWrapping="Wrap" Text="Green Color Luminance: Not Initialized" VerticalAlignment="Top" Width="600" FontSize="26.667" Foreground="#FF3AA41B" TextAlignment="Center"/>
-		<TextBlock x:Name="Text_Blue_Color_Luminance" HorizontalAlignment="Center" Margin="0,480,0,0" TextWrapping="Wrap" Text="Blue Color Luminance: Not Initialized" VerticalAlignment="Top" Width="600" FontSize="26.667" Foreground="#FF0D1BF4" TextAlignment="Center"/>
-		<TextBlock x:Name="Text_Clear_Data_Luminance" HorizontalAlignment="Center" Margin="0,530,0,0" TextWrapping="Wrap" Text="Clear Data Luminance: Not Initialized" VerticalAlignment="Top" Width="600" FontSize="26.667" Foreground="#FF2E2E3A" TextAlignment="Center"/>
-        <TextBlock x:Name="Text_Status" HorizontalAlignment="Center" Margin="10,580,10,0" TextWrapping="Wrap" Text="Status: Initializing ..." VerticalAlignment="Top" Width="1346" FontSize="32" TextAlignment="Center"/>
+	<TextBlock x:Name="Title" HorizontalAlignment="Center" Margin="0,230,0,0" TextWrapping="Wrap" Text="BH1745NUC Digital Ambient Light and Color Sensor" VerticalAlignment="Top" Height="67" Width="2000" FontSize="48" Foreground="#FF34495E" TextAlignment="Center"/>
+	<TextBlock x:Name="Text_Address" HorizontalAlignment="Center" Margin="0,300,0,0" TextWrapping="Wrap" Text="I2C Address: 0x38" VerticalAlignment="Top" Height="36" Width="500" FontSize="30" Foreground="#FF273746" TextAlignment="Center"/>
+        <TextBlock x:Name="Text_Red_Color_Luminance" HorizontalAlignment="Center" Margin="0,350,0,0" TextWrapping="Wrap" Text="Red Color Luminance: Not Initialized" VerticalAlignment="Top" Width="600" FontSize="26.667" Foreground="#FFFC0505" TextAlignment="Center"/>
+        <TextBlock x:Name="Text_Green_Color_Luminance" HorizontalAlignment="Center" Margin="0,400,0,0" TextWrapping="Wrap" Text="Green Color Luminance: Not Initialized" VerticalAlignment="Top" Width="600" FontSize="26.667" Foreground="#FF3AA41B" TextAlignment="Center"/>
+	<TextBlock x:Name="Text_Blue_Color_Luminance" HorizontalAlignment="Center" Margin="0,450,0,0" TextWrapping="Wrap" Text="Blue Color Luminance: Not Initialized" VerticalAlignment="Top" Width="600" FontSize="26.667" Foreground="#FF0D1BF4" TextAlignment="Center"/>
+	<TextBlock x:Name="Text_Clear_Data_Luminance" HorizontalAlignment="Center" Margin="0,500,0,0" TextWrapping="Wrap" Text="Clear Data Luminance: Not Initialized" VerticalAlignment="Top" Width="600" FontSize="26.667" Foreground="#FF2E2E3A" TextAlignment="Center"/>
+        <TextBlock x:Name="Text_Status" HorizontalAlignment="Center" Margin="10,550,10,0" TextWrapping="Wrap" Text="Status: Initializing ..." VerticalAlignment="Top" Width="1346" FontSize="32" TextAlignment="Center"/>
     </Grid>
 </Page>
 
